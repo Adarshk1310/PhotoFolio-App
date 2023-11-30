@@ -1,0 +1,219 @@
+.mainApp{
+    width: 60%;
+    margin-left:20%;
+    display: flex;
+    /* border: 2px solid black; */
+    flex-direction: column;
+}
+.YourAlbum{
+display:flex;
+width:100%;
+height:100px;
+/* border-bottom:.5px solid white; */
+justify-content:space-between;
+color: black;
+}
+
+.allalbums{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* border: 2px solid black; */
+}
+
+.Heading{
+    font-family:"Garamond",Serif    ;
+    margin: 15px;
+    margin-top: 30px;
+}
+
+.AlbumButton {
+    appearance: button;
+    background-color: #1899D6;
+    border: solid transparent;
+    border-radius: 16px;
+    border-width: 0 0 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: .8px;
+    line-height: 20px;
+    margin: 20px;
+    outline: none;
+    overflow: visible;
+    padding: 13px 19px;
+    text-align: center;
+    text-transform: uppercase;
+    touch-action: manipulation;
+    transform: translateZ(0);
+    transition: filter .2s;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+    
+   }
+   
+   .AlbumButton:after {
+    background-clip: padding-box;
+    background-color: #1CB0F6;
+    border: solid transparent;
+    border-radius: 16px;
+    border-width: 0 0 4px;
+    bottom: -4px;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+   }
+   
+   .AlbumButton:main, button:focus {
+    user-select: auto;
+   }
+   
+   .AlbumButton:hover:not(:disabled) {
+    filter: brightness(1.1);
+   }
+   
+   .AlbumButton:disabled {
+    cursor: auto;
+   }
+   
+   .AlbumButton:active:after {
+    border-width: 0 0 0px;
+   }
+   
+   .AlbumButton:active {
+    padding-bottom: 10px;
+   }
+
+
+
+   .AlbumButton2 {
+    appearance: button;
+    background-color: #ff1300;
+    border: solid transparent;
+    border-radius: 16px;
+    border-width: 0 0 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: .8px;
+    line-height: 20px;
+    margin: 20px;
+    outline: none;
+    overflow: visible;
+    padding: 13px 19px;
+    text-align: center;
+    text-transform: uppercase;
+    touch-action: manipulation;
+    transform: translateZ(0);
+    transition: filter .2s;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+   }
+   
+   .AlbumButton2:after {
+    background-clip: padding-box;
+    background-color: #ff1300;
+    border: solid transparent;
+    border-radius: 16px;
+    border-width: 0 0 4px;
+    bottom: -4px;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+   }
+   
+   .AlbumButton2:main, button:focus {
+    user-select: auto;
+   }
+   
+   .AlbumButton2:hover:not(:disabled) {
+    filter: brightness(1.1);
+   }
+   
+   .AlbumButton2:disabled {
+    cursor: auto;
+   }
+   
+   .AlbumButton2:active:after {
+    border-width: 0 0 0px;
+   }
+   
+   .AlbumButton2:active {
+    padding-bottom: 10px;
+   }
+
+.ButtonDiv{
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.albumCard{
+
+    height:220px;
+    width: 17%;
+    margin:30px 16px 0px 16px;
+    justify-content: center;   
+    background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+    
+    transition: 0.5s;
+    color: black;
+    display:flex;
+    flex-direction: column;    
+    justify-content: space-between;
+    border-radius: 15px 15px 10px 10px ;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.albumCard:hover{
+   scale: 1.1;
+   transition: 0.4s;
+   cursor: pointer;
+   background-image: linear-gradient(60deg, #3d3393 0%, #2b76b9 37%, #2cacd1 65%, #35eb93 100%);
+    /* box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px; */
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
+
+}
+.ImageContainer{
+    width: 90%;
+    height: 70%;
+    margin: 5%;
+    border-radius: 10px 10px 0px 0px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.ImageContainer img{
+    width: 60px;
+    height: 60px;
+
+}
+c
+
+
+.Spinner{
+    position: absolute;
+    top:35%;
+    left:45%;
+}

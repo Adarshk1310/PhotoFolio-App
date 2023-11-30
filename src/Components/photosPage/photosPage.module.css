@@ -1,0 +1,248 @@
+.photoPageMain{
+    margin-top: 10px;
+    width: 60%;
+    margin-left:20%;
+    display: flex;
+    /* border: 2px solid white; */
+    flex-direction: column;
+}
+.Spinner{
+    position: absolute;
+    top:35%;
+    left:45%;
+}
+
+.PageOptions{
+    width: 100%;
+    height:80px;
+    display: flex;
+    justify-content: space-between;
+    color:white;
+}
+.firstDivOptions{
+    margin-top: 3px;
+    display: flex;
+    flex-direction: row;
+}
+.Imagediv{
+    width:60px;
+    height: 70%;
+    margin: 10px 5px 10px 15px;
+    border-radius: 50%;
+    background-image: url("../../Images/BackButton.png");
+    background-size:60%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    transition: .5s;
+    
+}
+.Imagediv:hover{
+    cursor: pointer;
+    scale: 1.1;
+    transition: .5s;
+    transform: rotateZ(-20deg);
+    
+}
+.firstDivOptions h1{
+   margin-left:25px;
+    
+}
+
+.SecondDivOptions{
+    display: flex;
+    margin-top: 5px;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.searchIcon{
+    width:40px;
+    height: 50%;
+    margin: 18px 15px 10px 5px;
+    background-image: url('https://cdn-icons-png.flaticon.com/128/10109/10109797.png');
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: none;
+}
+.searchIcon:hover{
+        cursor: pointer;
+}
+
+.addImage{
+    margin-top: 15px;
+    margin-right: 10px;
+    width: 120px;
+    height:45px;
+    border-radius: 10px;
+    color: white;
+    font-size: large;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #07f;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.addImage2{
+    margin-top: 15px;
+    margin-right: 10px;
+    width: 120px;
+    height:45px;
+    border-radius: 10px;
+    color: white;
+    font-size: large;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #ff1300;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.addImage2:hover{
+    cursor: pointer;
+
+}
+.addImage:hover{
+    cursor: pointer;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    scale: 0.95;
+    transition: 0.2s;
+}
+
+.SecondDivOptions input{
+    width:300px;
+    height: 40px;
+    position: relative;
+    top: 7px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    padding-left: 20px;
+    font-size: large;
+    
+}
+.SecondDivOptions img{
+    position: relative;
+    top: 19px;
+    margin: 0px 20px 0px 0px;
+    width:40px;
+    height: 50%;
+    background-color: white;
+    border-radius: 55%;
+    
+}
+.SecondDivOptions img:hover{
+    cursor: pointer;
+    background-color: red;
+    transition: 0.5s;
+    scale: 0.9;
+}
+
+.Pictures{
+ 
+    width: 100%;
+    margin-top:30px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:10px;
+
+}
+.PictureCard{
+    position: relative;
+    margin:10px;
+    margin-left: 20px;
+    border-radius: 10px 10px 3px 3px;
+    height:200px;
+    width: 180px;
+    /* padding: -2px; */
+  
+    font-size:medium;
+    color:black;
+    background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+
+
+    /* box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px; */
+    
+}
+
+.PictureCard:hover{
+    padding: 0px;
+    scale: 1.1;
+    transition: 0.4s;
+    cursor: pointer;
+    background-image: linear-gradient(60deg, #3d3393 0%, #2b76b9 37%, #2cacd1 65%, #35eb93 100%);
+     box-shadow: rgba(0, 0, 0, 0.5) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+     color: white;  
+    .editDiv{
+        visibility: visible;
+    }
+    
+ }
+
+ .PictureCard h3{
+
+    margin-top:15px;
+    }
+
+.ImageContainer{
+    width: 90%;
+    height: 70%;
+    margin:5% 5% 0 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px 10px 0px 0px;
+
+}
+
+.ImageContainer img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px 10px 3px 3px;
+
+
+
+}
+
+.editDiv{
+    visibility: hidden;
+    position: absolute;
+    right: 0px;
+    top:-20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 40%;
+}
+.editButtonDiv:hover{
+    scale: 1.2;
+    transition: 0.5s;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+
+}
+.editButtonDiv{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.editButtonDiv img{
+    width: 100%;
+    height: 100%;
+}
+.deleteButtonDiv{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.deleteButtonDiv img{
+    width: 100%;
+    height: 100%;
+}
+.deleteButtonDiv:hover{
+    scale: 1.2;
+    transition: 0.5s;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+
+}

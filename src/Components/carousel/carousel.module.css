@@ -1,0 +1,125 @@
+.carouselMain{
+    width: 100%;
+    height: 100%;
+    background-color: hsla(0, 1%, 52%, 0.8);
+    margin: 0;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.carouselOptions{
+   padding-left:30px;
+    display: flex;
+    flex-direction:row;
+    align-items:center;
+    gap: 35px;
+    margin: 0;
+    /* padding: 0; */
+    height: 80%;
+    width:95%;
+ 
+
+}
+.backButtonOuter{
+    flex: .5;
+    display: flex;
+    justify-content: flex-end;
+    opacity: 1;
+    flex:1
+    
+}
+.backButton{
+    width:80px;
+    height: 80px;
+    background-color: white;
+    border-radius: 50%;
+    transition: 0.4s;
+
+    
+
+}
+.backButton img{
+    width: 100%;
+    height: 100%;
+    scale: 0.7;
+}
+.backButton:hover{
+    cursor: pointer;
+    background-image: linear-gradient(60deg, #3d3393 0%, #2b76b9 37%, #2cacd1 65%, #35eb93 100%);
+    scale: 1.05;
+    transition: 0.4s;
+    transform: rotateZ(-40deg);
+    
+}
+.nextButtonOuter{
+    flex: .5;
+    display: flex;
+    /* justify-content: center; */
+    display: flex;
+    flex:1
+
+   
+}
+.crossButton{
+    margin-top:10px;
+    margin-right: 15px;
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transition: 0.5s;
+
+   
+}
+.crossButton img{
+    width:70%;
+    height: 70%;
+    scale: 0.8;
+
+}
+
+.nextButton{
+    width:80px;
+    height: 80px;
+    background-color: white;
+    border-radius: 50%;
+    transition: 0.4s;
+
+   
+}
+.nextButton img{
+    width: 100%;
+    height: 100%;
+    scale: 0.6;
+}
+.nextButton:hover{
+    cursor: pointer;
+    background-image: linear-gradient(60deg, #3d3393 0%, #2b76b9 37%, #2cacd1 65%, #35eb93 100%);
+    scale: 1.05;
+    transition: 0.4s;
+    transform: rotateZ(40deg);
+}
+.photo{
+    margin-top: 20px;
+    width: 65%;
+    height: 100%;
+    /* flex: 2; */
+}
+.photo img{
+    
+    width: 100%;
+    height: 100%;
+}
+
+.crossButton:hover{
+    background-color: red;
+    cursor: pointer;
+    scale: 1.05;
+    transition: 0.5s;
+}
+
